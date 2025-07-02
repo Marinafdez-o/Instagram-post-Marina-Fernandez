@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  background-color: black;
+}
+
+
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.post {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 12px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 10px;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 10px;
+  color: #888;
+}
+
+.post-image {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands.fa-instagram {
+  font-size: 20px;
+  color: #000000;
+}
+
+.post-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.post-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.post-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 20px;   
+  margin-right: 20px;
+}
+
+.Post-icons i {
+  font-size: 30px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
